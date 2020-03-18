@@ -1,0 +1,170 @@
+[
+    {
+        "operacion": "sumar",
+        "numeros": [
+            "80",
+            "90",
+            "40",
+            "7",
+            "7",
+            "6"
+        ],
+        "resultado": 230
+    },
+    {
+        "operacion": "multiplicar",
+        "numeros": [
+            "80",
+            "90",
+            "7",
+            "2"
+        ],
+        "resultado": 100800
+    },
+    {
+        "operacion": "dividir",
+        "numeros": [
+            "10",
+            "2",
+            "0"
+        ],
+        "resultado": null
+    },
+    {
+        "operacion": "dividir",
+        "numeros": [
+            "40",
+            "4",
+            "2"
+        ],
+        "resultado": 5
+    },
+    {
+        "operacion": "restar",
+        "numeros": [
+            "800",
+            "8",
+            "2",
+            "700"
+        ],
+        "resultado": 90
+    },
+    {
+        "operacion": "sumar",
+        "numeros": [
+            "2",
+            "4",
+            "8",
+            "9",
+            "1",
+            "10",
+            "77"
+        ],
+        "resultado": 111
+    },
+    {
+        "operacion": "multiplicar",
+        "numeros": [
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "1",
+            "90"
+        ],
+        "resultado": 90
+    },
+    {
+        "operacion": "sumar",
+        "numeros": [
+            "40",
+            "40",
+            "40",
+            "40"
+        ],
+        "resultado": 160
+    },
+    {
+        "operacion": "multiplicar",
+        "numeros": [
+            "77",
+            "77"
+        ],
+        "resultado": 5929
+    },
+    {
+        "operacion": "restar",
+        "numeros": [
+            "999",
+            "9",
+            "8",
+            "7",
+            "6",
+            "5",
+            "4",
+            "3",
+            "2",
+            "1"
+        ],
+        "resultado": 954
+    },
+    {
+        "operacion": "restar",
+        "numeros": [
+            "987654321",
+            "123456789"
+        ],
+        "resultado": 864197532
+    },
+    {
+        "operacion": "multiplicar",
+        "numeros": [
+            "2345",
+            "8765"
+        ],
+        "resultado": 20553925
+    },
+    {
+        "operacion": "sumar",
+        "numeros": [
+            "7",
+            "77",
+            "777",
+            "7777",
+            "77777",
+            "777777"
+        ],
+        "resultado": 864192
+    },
+    {
+        "operacion": "multiplicar",
+        "numeros": [
+            "8",
+            "6",
+            "4",
+            "1",
+            "9",
+            "2"
+        ],
+        "resultado": 3456
+    },
+    {
+        "operacion": "multiplicar",
+        "numeros": [
+            "3",
+            "4",
+            "5",
+            "6"
+        ],
+        "resultado": 360
+    },
+    {
+        "operacion": "dividir",
+        "numeros": [
+            "147",
+            "5.231"
+        ],
+        "resultado": 28.101701395526668
+    }
+]

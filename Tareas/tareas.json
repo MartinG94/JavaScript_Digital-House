@@ -1,0 +1,26 @@
+[
+    {
+        "titulo": "Repasar C++",
+        "estado": "Terminada"
+    },
+    {
+        "titulo": "Armar aplicación de Tareas",
+        "estado": "En progreso"
+    },
+    {
+        "titulo": "Break",
+        "estado": "Terminada"
+    },
+    {
+        "titulo": "Repasar C++",
+        "estado": "Pendiente"
+    },
+    {
+        "titulo": "Jugar al LOL",
+        "estado": "Pendiente"
+    },
+    {
+        "titulo": "Jugar al LOL",
+        "estado": "Pendiente"
+    }
+]

@@ -1,0 +1,54 @@
+[
+    {
+        "titulo": "Repasar JS",
+        "estado": "En Proceso"
+    },
+    {
+        "titulo": "Repasar C++",
+        "estado": "Pendiente"
+    },
+    {
+        "titulo": "Ayudar a Soli a Inscribirse",
+        "estado": "Terminada"
+    },
+    {
+        "titulo": "Ayudar a Nico con Consu",
+        "estado": "Terminada"
+    },
+    {
+        "titulo": "Recibirme de Digital House",
+        "estado": "En Proceso"
+    },
+    {
+        "titulo": "Recibirme de la UTN",
+        "estado": "En Proceso"
+    },
+    {
+        "titulo": "Final FISICA II",
+        "estado": "En Proceso"
+    },
+    {
+        "titulo": "Final ARQUITECTURA",
+        "estado": "Pendiente"
+    },
+    {
+        "titulo": "Final QUIMICA",
+        "estado": "Pendiente"
+    },
+    {
+        "titulo": "Repasar Haskell",
+        "estado": "Pendiente"
+    },
+    {
+        "titulo": "Ver El Señor de los Anillos 1",
+        "estado": "Terminada"
+    },
+    {
+        "titulo": "Ver El Señor de los Anillos 2",
+        "estado": "Pendiente"
+    },
+    {
+        "titulo": "Ver El Señor de los Anillos 3",
+        "estado": "Pendiente"
+    }
+]
