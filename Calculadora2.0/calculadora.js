@@ -49,9 +49,6 @@ const calculadora = {
         console.log(resultado);
         this.generarOperacion('dividir',resultado, ...unosNumeros);
     },
-    sobrate: function(){
-
-    },
     opcionesDisponibles: function(){
         let operaciones = ['sumar','restar','multiplicar','dividir'];
         console.log('*** OPERACIONES DISPONIBLES ***')
