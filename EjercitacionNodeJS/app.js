@@ -10,7 +10,11 @@ http.createServer((req, res) => {
 
 	switch (req.url) {
 		case '/':{
-			res.end('Home');
+			let resultado = `
+				HOME\n
+				${() => {}}
+			`
+			res.end(resultado);
 		}
 		break;
 		case '/en-cartelera':{
