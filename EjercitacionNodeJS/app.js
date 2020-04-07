@@ -1,3 +1,8 @@
 const term = require('terminal-kit').terminal;
 
-term.red('Hola');
+term.magenta("Ingrese su nombre:");
+term.inputField(
+    function(error, input){
+        term.green("\nTu nombre es '%s'\n", input);
+    }
+)
