@@ -7,6 +7,9 @@ switch(accion) {
     case 'listar':
         archivoTareas.listarTareas();
         break;
+    case 'cantidad':
+        archivoTareas.cantidadDeTareas();
+        break;
     case 'crear':
         archivoTareas.crearNuevaTarea(argumento);
         break;
