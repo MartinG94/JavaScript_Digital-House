@@ -1,5 +1,4 @@
 const http = require('http');
-const fs = require('fs');
 
 const gestorMovies = require('./logica/gestorMovies.js');
 const gestorFaqs = require('./logica/gestorFaqs.js');
@@ -10,8 +9,10 @@ http.createServer((req, res) => {
 
 	switch (req.url) {
 		case '/':{
-			let resultado = `Bienvenidos a DH Movies\nEl mejor sitio para encontrar las mejores películas\nIncluso mucho mejor que Netflix, Cuevana y PopCorn`
-			res.end(resultado);
+			res.write('Bienvenidos a DH Movies \n');
+			res.write('El mejor sitio para encontrar las mejores películas \n');
+			res.write('Incluso mejor que Netfliz, Cuevana o PopCorn \n \n');
+			res.end();
 		}
 		break;
 		case '/en-cartelera':{
