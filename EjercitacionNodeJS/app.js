@@ -1,5 +1,3 @@
-const os = require('os');
+const term = require('terminal-kit').terminal;
 
-// Ver los cps de la computadora
-
-console.log(os.cpus());
+term.red('Hola');
