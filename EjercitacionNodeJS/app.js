@@ -10,10 +10,7 @@ http.createServer((req, res) => {
 
 	switch (req.url) {
 		case '/':{
-			let resultado = `
-				HOME\n
-				${() => {}}
-			`
+			let resultado = `Bienvenidos a DH Movies\nEl mejor sitio para encontrar las mejores películas\nIncluso mucho mejor que Netflix, Cuevana y PopCorn`
 			res.end(resultado);
 		}
 		break;
