@@ -16,7 +16,7 @@ const archivoTareas = {
         this.escribirJSON(listaVacia);
     },
     opcionesDisponibles: function(){
-        let opciones = ['listar','crear','limpiar','filtrar','actualizar','eliminar'];
+        let opciones = ['listar','cantidad','crear','limpiar','filtrar','actualizar','eliminar'];
         console.log('*** OPERACIONES DISPONIBLES ***');
         opciones.forEach((elemento, indice) => {
             return console.log((indice+1)+'. '+elemento);
@@ -112,6 +112,10 @@ const archivoTareas = {
         };
         this.escribirJSON(nuevaListaDeTareas);
         return console.log('*** TAREA ELIMINADA EXITOSAMENTE ***');
+    },
+    cantidadDeTareas: function(){
+        let tareas = this.leerJSON();
+        return console.log(tareas.length);
     }
 };
 
