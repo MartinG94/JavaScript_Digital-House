@@ -6,3 +6,6 @@ term.inputField(
         term.green("\nTu nombre es '%s'\n", input);
     }
 )
+
+// Trabajar con métodos ya creados por el modulo
+// Nos soluciona la vida! :D
