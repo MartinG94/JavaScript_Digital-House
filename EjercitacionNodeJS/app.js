@@ -1,9 +1,9 @@
 const http = require('http');
 const fs = require('fs');
 
-const movies = require('./data/movies.js');
-const faqs = require('./data/faqs.js');
-const theaters = require('./data/theaters.js');
+const gestorMovies = require('./logica/gestorMovies.js');
+const gestorFaqs = require('./logica/gestorFaqs.js');
+const gestorTheaters = require('./logica/gestorTheaters.js');
 
 // Servidor
 http.createServer((req, res) => {
