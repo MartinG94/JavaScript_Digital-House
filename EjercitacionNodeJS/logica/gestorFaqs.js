@@ -2,4 +2,4 @@ const gestorFaqs = {
 
 };
 
-module.exports = faqs;
+module.exports = gestorFaqs;
