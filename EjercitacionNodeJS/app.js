@@ -1,6 +1,7 @@
 const http = require("http");
 const fs = require('fs');
 const moduleHome = require('./src/home');
+const moduleEnCartelera = require('./src/enCartelera');
 
 http
   .createServer((req, res) => {
@@ -14,7 +15,7 @@ http
         break;
       case "/en-cartelera":
         {
-          res.end("En cartelera");
+          res.end(JSON.stringify(moduleEnCartelera));
         }
         break;
       case "/mas-votadas":
