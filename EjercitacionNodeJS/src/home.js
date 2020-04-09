@@ -26,3 +26,5 @@ const datosDeInicio = {
         'Preguntas Frecuentes'
     ],
 }
+
+module.exports = datosDeInicio;
