@@ -16,7 +16,7 @@ const orderedMovies = movies.sort((movie1, movie2) => {
 const datosDeInicio = {
   Titulo: `Bienvenido a DH movies el mejor sitio para encontrar las mejores peliculas, Incluso mucho mejor que Netflix, Cuevana y PopCorn`,
   "Total de Peliculas en Cartelera": moviesLength,
-  "Listado de peliculas": orderedMovies,
+  "Listado de peliculas": orderedMovies.map( (movie) => movie.title ),
   "Pie de pagina": [
     "En Cartelera",
     "Más Votadas",
