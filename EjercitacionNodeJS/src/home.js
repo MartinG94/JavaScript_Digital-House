@@ -1,5 +1,4 @@
 const movies = require('../data/movies');
-let nombre = 'Martin';
 const moviesLength = movies.length;
 const orderedMovies = movie.sort(
     (movie1, movie2) => {
@@ -16,7 +15,7 @@ const orderedMovies = movie.sort(
 });
 
 const datosDeInicio = {
-    Titulo: `Bienvenido ${nombre} a DH movies el mejor sitio para encontrar las mejores peliculas, Incluso mucho mejor que Netflix, Cuevana y PopCorn`,
+    Titulo: `Bienvenido a DH movies el mejor sitio para encontrar las mejores peliculas, Incluso mucho mejor que Netflix, Cuevana y PopCorn`,
     'Total de Peliculas en Cartelera': moviesLength,
     'Listados de peliculas': orderedMovies,
     'Pie de pagina': [
