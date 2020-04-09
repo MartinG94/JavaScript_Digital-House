@@ -7,7 +7,10 @@ const gestorMovies = {
         let moviesARRAY = JSON.parse(moviesJSON);
         return moviesARRAY;
     },
-    
+    cantidadDePeliculas: function(){
+        let peliculas = this.leerJSON();
+        return peliculas.lenght;
+    }
 };
 
 module.exports = gestorMovies;
