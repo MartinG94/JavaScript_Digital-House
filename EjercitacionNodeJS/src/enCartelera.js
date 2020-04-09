@@ -12,11 +12,9 @@ const orderedMovies = movies.sort((movie1, movie2) => {
   return 0;
 });
 
-const pelisYSusReseñas = orderedMovies.map(
-  (movie) =>
-    `Titulo: ${movie.title}
-Reseña:${movie.overview}`
-);
+const pelisYSusReseñas = orderedMovies.map( function(movie){
+  return {'Titulo': movie.title, 'Reseña': movie.overview}
+});
 
 const datosDeCartelera = {
   Titulo: "En Cartelera",
