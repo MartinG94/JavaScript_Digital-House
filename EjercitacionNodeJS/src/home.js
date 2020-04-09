@@ -3,10 +3,13 @@ let nombre = 'Juan';
 const moviesLength = movies.length;
 const orderedMovies = movie.sort(
     (movie1, movie2) => {
-        if( movie1.title < movie2.title ){
+        const movie1Title = movie1.title;
+        const movie2Title = movie2.title;
+
+        if( movie1Title < movie2Title ){
             return -1;
         }
-        if( movie1.title > movie.title){
+        if( movie1Title > movie2Title){
             return 1;
         };
         return 0;
