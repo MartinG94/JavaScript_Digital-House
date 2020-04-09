@@ -1,10 +1,6 @@
 const http = require("http");
-
-const gestorMovies = require("./logica/gestorMovies.js");
-const gestorFaqs = require("./logica/gestorFaqs.js");
-const gestorTheaters = require("./logica/gestorTheaters.js");
-
-let totalPeliculas = gestorMovies.cantidadDePeliculas();
+const fs = require('fs');
+const moduleHome = require('./src/home');
 
 http
   .createServer((req, res) => {
@@ -13,13 +9,7 @@ http
     switch (req.url) {
       case "/":
         {
-          res.write("Bienvenidos a DH Movies \n");
-          res.write("El mejor sitio para encontrar las mejores películas \n");
-          res.write("Incluso mejor que Netfliz, Cuevana o PopCorn \n \n");
-          res.write(
-            "El total de peliculas disponibles es de " + totalPeliculas
-          );
-          res.end();
+			res.end(JSON.stringify(moduleHome));
         }
         break;
       case "/en-cartelera":
