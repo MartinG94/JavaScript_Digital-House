@@ -140,3 +140,5 @@ const movies = [
 		"release_date": "2019-10-11"
 	}
 ];
+
+module.exports = movies;
