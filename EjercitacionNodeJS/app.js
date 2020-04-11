@@ -1,5 +1,5 @@
 const http = require("http");
-const rutas = require('./src/rutas');
+const rutas = require('./rutas');
 
 http
   .createServer((req, res) => {
