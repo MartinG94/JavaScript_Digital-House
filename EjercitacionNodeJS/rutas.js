@@ -4,32 +4,32 @@ function ruteo(req, res) {
   switch (req.url) {
     case "/":
       {
-        res.end(JSON.stringify(moduleHome));
+        res.end(JSON.stringify(paginaWeb.Home));
       }
       break;
     case "/en-cartelera":
       {
-        res.end(JSON.stringify(moduleEnCartelera));
+        res.end(JSON.stringify(paginaWeb["En Cartelera"]));
       }
       break;
     case "/mas-votadas":
       {
-        res.end(JSON.stringify(moduleMasVotadas));
+        res.end(JSON.stringify(paginaWeb["Mas Votadas"]));
       }
       break;
     case "/sucursales":
       {
-        res.end(JSON.stringify(moduleSucursales));
+        res.end(JSON.stringify(paginaWeb.Sucursales));
       }
       break;
     case "/contacto":
       {
-        res.end(JSON.stringify(moduleContacto));
+        res.end(JSON.stringify(paginaWeb.Sucursales));
       }
       break;
     case "/preguntas-frecuentes":
       {
-        res.end(JSON.stringify(modulePreguntasFrecuentes));
+        res.end(JSON.stringify(paginaWeb["Preguntas Frecuentes"]));
       }
       break;
     default: {
