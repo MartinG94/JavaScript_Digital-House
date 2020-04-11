@@ -14,6 +14,8 @@ const sumasDePromedios = (listaDePromedios) => {
 
 const ratingPromedio = sumasDePromedios(promedios) / cantidadDePeliculasMasVotadas;
 
+const ratingPromedioFixeado = Number(ratingPromedio.toFixed(2));
+
 const listaPeliculas = moviesMasVotadas.map( pelicula => {
     return {'Titulo':pelicula.title, 'Rating':pelicula.vote_average, 'Reseña':pelicula.overview};
 });
@@ -21,7 +23,7 @@ const listaPeliculas = moviesMasVotadas.map( pelicula => {
 const datosDeMasVotados = {
     Titulo: 'Mas Votadas',
     'Total de Peliculas': cantidadDePeliculasMasVotadas,
-    'Rating Promedio': ratingPromedio,
+    'Rating Promedio': ratingPromedioFixeado,
     'Listado de Peliculas': listaPeliculas,
 };
 
