@@ -6,7 +6,7 @@ function ruteo(req, res){
     switch (req.url) {
         case "/":
           {
-              res.end(JSON.stringify(moduleHome));
+            res.end(JSON.stringify(moduleHome));
           }
           break;
         case "/en-cartelera":
