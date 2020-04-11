@@ -1,9 +1,9 @@
-const moduleHome = require("./src/home");
-const moduleEnCartelera = require("./src/enCartelera");
-const moduleMasVotadas = require("./src/masVotadas");
-const moduleSucursales = require("./src/sucursales");
-const moduleContacto = require("./src/contacto");
-const modulePreguntasFrecuentes = require("./src/preguntasFrecuentes");
+const moduleHome = require("./home");
+const moduleEnCartelera = require("./enCartelera");
+const moduleMasVotadas = require("./masVotadas");
+const moduleSucursales = require("./sucursales");
+const moduleContacto = require("./contacto");
+const modulePreguntasFrecuentes = require("./preguntasFrecuentes");
 
 const paginaWeb = {
     'Home': moduleHome,
