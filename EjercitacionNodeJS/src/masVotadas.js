@@ -1,7 +1,7 @@
 const movies = require("../data/movies");
 const moviesMasVotadas = movies.filter( pelicula => pelicula.vote_average >= 7);
 const cantidadDePeliculasMasVotadas = moviesMasVotadas.length;
-const promedios = moviesMasVotadas.map( unaPeli => {
+const promediosDeLasMasVotadas = moviesMasVotadas.map( unaPeli => {
     return unaPeli.vote_average;
 });
 const sumasDePromedios = (listaDePromedios) => {
@@ -12,7 +12,7 @@ const sumasDePromedios = (listaDePromedios) => {
     return suma;
 };
 
-const ratingPromedio = sumasDePromedios(promedios) / cantidadDePeliculasMasVotadas;
+const ratingPromedio = sumasDePromedios(promediosDeLasMasVotadas) / cantidadDePeliculasMasVotadas;
 
 const ratingPromedioFixeado = Number(ratingPromedio.toFixed(2));
 
