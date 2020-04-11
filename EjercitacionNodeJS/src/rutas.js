@@ -2,6 +2,7 @@ const moduleHome = require('./home');
 const moduleEnCartelera = require('./enCartelera');
 const moduleMasVotadas = require('./masVotadas');
 const moduleSucursales = require('./sucursales');
+const moduleContacto = require('./contacto');
 
 function ruteo(req, res){
     switch (req.url) {
@@ -27,7 +28,7 @@ function ruteo(req, res){
           break;
         case "/contacto":
           {
-            res.end("Contacto");
+            res.end(JSON.stringify(moduleContacto));
           }
           break;
         case "/preguntas-frecuentes":
