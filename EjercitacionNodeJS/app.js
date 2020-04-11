@@ -1,6 +1,6 @@
 const http = require("http");
 const fs = require('fs');
-const rutas = require('./rutas');
+const rutas = require('./src/rutas');
 
 http
   .createServer((req, res) => {

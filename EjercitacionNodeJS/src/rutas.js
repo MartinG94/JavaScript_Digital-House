@@ -1,6 +1,6 @@
-const moduleHome = require('./src/home');
-const moduleEnCartelera = require('./src/enCartelera');
-const moduleMasVotadas = require('./src/masVotadas');
+const moduleHome = require('./home');
+const moduleEnCartelera = require('./enCartelera');
+const moduleMasVotadas = require('./masVotadas');
 
 function ruteo(req, res){
     switch (req.url) {
