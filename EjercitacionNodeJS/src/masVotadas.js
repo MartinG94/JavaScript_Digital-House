@@ -1,5 +1,5 @@
 const movies = require("../data/movies");
-const moviesMasVotadas = movies.filter( pelicula => pelicula.vote_average > 7);
+const moviesMasVotadas = movies.filter( pelicula => pelicula.vote_average >= 7);
 const cantidadDePeliculasMasVotadas = moviesMasVotadas.length;
 const promedios = moviesMasVotadas.map( unaPeli => {
     return unaPeli.vote_average;
