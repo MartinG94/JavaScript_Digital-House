@@ -8,3 +8,10 @@ const listadoDeSalas = salas.theaters.map( (unaSala) => {
     };
 });
 
+const sucursales = {
+    Titulo: 'Nuestras Salas',
+    'Total de salas': cantidadDeSalas,
+    'Listado de salas': listadoDeSalas
+};
+
+module.exports = sucursales;
