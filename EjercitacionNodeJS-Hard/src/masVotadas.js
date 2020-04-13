@@ -14,3 +14,10 @@ let sumarArray = (unArray) => {
     return resultado;
 };
 let ratingPromedio = Number((sumarArray(promediosDeLasMasVotadas) / cantidadPeliculasMasVotadas).toFixed(2));
+
+const masVotadas = {
+    Titulo: 'Más Votadas',
+    'Total de películas': cantidadPeliculasMasVotadas,
+    'Rating Promedio': ratingPromedio,
+    'Listado de películas':
+};
