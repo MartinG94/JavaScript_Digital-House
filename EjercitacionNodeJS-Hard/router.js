@@ -20,6 +20,8 @@ function rutear(req, res){
         case '/preguntas-frecuentes':
             res.end(JSON.stringify(paginaWeb.preguntasFrecuentes));
             break;
+        default:
+            res.end("404 not found");
     };
 };
 
