@@ -5,6 +5,9 @@ function rutear(req, res){
         case '/':
             res.end(JSON.stringify(paginaWeb.home));
             break;
+        case '/en-cartelera':
+            res.end(JSON.stringify(paginaWeb.cartelera));
+            break;
     };
 };
 
