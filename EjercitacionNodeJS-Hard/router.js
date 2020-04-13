@@ -11,6 +11,9 @@ function rutear(req, res){
         case '/mas-votadas':
             res.end(JSON.stringify(paginaWeb.masVotadas));
             break;
+        case '/sucursales':
+            res.end(JSON.stringify(paginaWeb.sucursales));
+            break;
     };
 };
 
