@@ -7,3 +7,10 @@ const listadoPreguntas = datosPreguntas.faqs.map( (unaPregunta) => {
     };
 });
 
+const preguntasFrecuentes = {
+    Titulo: 'Preguntas Frecuentes',
+    'Total de preguntas': cantidadDePreguntas,
+    'Listado de preguntas': listadoPreguntas
+};
+
+module.exports = preguntasFrecuentes;
