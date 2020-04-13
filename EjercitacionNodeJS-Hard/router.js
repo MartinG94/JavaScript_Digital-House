@@ -8,6 +8,9 @@ function rutear(req, res){
         case '/en-cartelera':
             res.end(JSON.stringify(paginaWeb.cartelera));
             break;
+        case '/mas-votadas':
+            res.end(JSON.stringify(paginaWeb.masVotadas));
+            break;
     };
 };
 
