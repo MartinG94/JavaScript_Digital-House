@@ -17,6 +17,9 @@ function rutear(req, res){
         case '/contacto':
             res.end(JSON.stringify(paginaWeb.contacto));
             break;
+        case '/preguntas-frecuentes':
+            res.end(JSON.stringify(paginaWeb.preguntasFrecuentes));
+            break;
     };
 };
 
