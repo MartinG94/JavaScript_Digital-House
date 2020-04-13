@@ -7,3 +7,10 @@ const listadoPeliculas = datosPeliculas.movies.map( (unaPelicula) => {
     };
 });
 
+const enCartelera = {
+    Titulo: 'En Cartelera',
+    'Total de películas': cantidadDePeliculas,
+    'Listado de peliculas': listadoPeliculas
+};
+
+module.exports = enCartelera;
